@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <div class="logo-title">Favorite Movies</div>
+            </div>
+            <div id="add-movie-button" class="add-movie-button">
+                add movie
+            </div>
+        </div>
+    </header>
+
+    <!-- movies database section -->
+    <section id="movies" class="movies">
+        <p>Your personal movie database!</p>
+    </section>
+
+    <!-- movies-from section -->
+    <section id="movies-form" class="movies-form">
+        <form action="#">
+            <label for="title">Movies Title</label> <br>
+            <input type="text">
+            <label for="img-url">Image URL</label> <br>
+            <input type="text">
+            <label for="rating">Rating</label>
+            <input type="number">
+
+            <button id="cancel-button" class="cancel-button">cancel</button><button class="add-button">add</button>
+        </form>
+    </section>
+    <script src="./js/script.js"></script>
+</body>
+</html>
